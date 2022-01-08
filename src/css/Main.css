@@ -33,6 +33,7 @@
     color: #26274F;
     text-align: justify;
     padding: 50px 5% 60px 5%;
+    border-bottom: 3px solid #555;
 }
 
 .segunda-chamada h2{
@@ -76,5 +77,11 @@
     .segunda-chamada .center-itens .item{
         width: 80%;
         margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 460px){
+    .segunda-chamada .center-itens .item{
+        width: 100%;
     }
 }
