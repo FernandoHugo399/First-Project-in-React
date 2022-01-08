@@ -1,4 +1,4 @@
-import './Header.css'
+import '../css/Header.css'
 
 export default function Header(){
     return(
@@ -23,23 +23,23 @@ export default function Header(){
                     <div className='form-container-main'>
                         <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h2>
                         <form>
-                            <div class="input-form">
+                            <div className="input-form">
                                 <span>Nome*</span>
                                 <input type="text" name="nome" required/>
                             </div> {/* input-form */}
 
-                            <div class="input-form">
+                            <div className="input-form">
                                 <span>E-mail*</span>
                                 <input type="text" name="email" required/>
                             </div> {/* input-form */}
 
-                            <div class="input-form">
+                            <div className="input-form">
                                 <span>Telefone*</span>
                                 <input type="text" name="Telefone" required/>
                                 <span>* Campos obrigatórios</span>
                             </div> {/* input-form */}
 
-                            <div class="input-submit">
+                            <div className="input-submit">
                                 <input type="submit" name="acao" value="Enviar"/>
                             </div> {/* input-submit */}
 

@@ -2,7 +2,7 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 700px;
+    height: 650px;
 }
 
 .menu{
@@ -47,8 +47,8 @@ header {
     
 }
 
-
 .form-container-main{
+    text-align: center;
     position: relative;
     width: 100%;
     max-width: 380px;
